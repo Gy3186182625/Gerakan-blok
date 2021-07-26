@@ -28,16 +28,16 @@
 
                 console.log(l, t)
                 var event = e || window.event
-                if(event.key == "↑" & t > 0) {
+                if(event.key == "W" & t > 0) {
                     box.style.top = t - 10 + "px";
                 };
-                if(event.key == "↓" & t < hi) {
+                if(event.key == "S" & t < hi) {
                     box.style.top = t + 10 + "px";
                 };
-                if(event.key == "←" & l > 0) {
+                if(event.key == "A" & l > 0) {
                     box.style.left = l - 10 + "px";
                 };
-                if(event.key == "→" & l < wi) {
+                if(event.key == "D" & l < wi) {
                     box.style.left = l + 10 + "px";
                 };
             }, false)
